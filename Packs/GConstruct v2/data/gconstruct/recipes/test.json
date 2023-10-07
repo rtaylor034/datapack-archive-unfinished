@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:golden_sword"
+    },
+    "addition": {
+        "item": "minecraft:copper_ingot"
+    },
+    "result": {
+        "item": "minecraft:stone",
+        "tag": "{d:1}"
+    }
+}

@@ -1,0 +1,9 @@
+{
+"replace": false,
+    "values": [
+        "#gconstruct:armor/boots",
+		"#gconstruct:armor/leggings",
+		"#gconstruct:armor/chestplates",
+		"#gconstruct:armor/helmets"
+    ]
+}

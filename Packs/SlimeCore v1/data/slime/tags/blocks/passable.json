@@ -1,0 +1,22 @@
+{
+  "values" : [
+
+    "#slime:airs",
+    "#minecraft:flowers",
+    "#minecraft:crops",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:large_fern",
+    "#minecraft:saplings",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:sugar_cane",
+    "minecraft:fern",
+    "minecraft:snow",
+    "minecraft:big_dripleaf_stem",
+    "minecraft:vine",
+    "minecraft:glow_lichen",
+    "minecraft:lily_pad"
+
+  ]
+}

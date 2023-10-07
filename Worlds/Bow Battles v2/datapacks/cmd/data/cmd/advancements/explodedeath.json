@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "cmd:advancement/explodedeath"
+  },
+  "criteria": {
+    "explode": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "is_explosion": true
+        }
+      }
+    }
+  }
+}

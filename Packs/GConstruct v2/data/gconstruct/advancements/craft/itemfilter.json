@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gconstruct:crafting/block/itemfilter"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gconstruct:craft/itemfilter"
+  }
+}

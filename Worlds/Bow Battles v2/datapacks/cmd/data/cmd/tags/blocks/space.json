@@ -1,0 +1,11 @@
+{
+"replace": false,
+    "values": [
+        "minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:fire",
+		"minecraft:water",
+		"minecraft:grass",
+    "minecraft:lava"
+    ]
+}

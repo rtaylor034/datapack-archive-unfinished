@@ -1,0 +1,19 @@
+{
+"replace": false,
+    "values": [
+		"#minecraft:wool",
+		"#minecraft:stairs",
+		"#minecraft:slabs",
+		"minecraft:cracked_stone_bricks",
+		"#minecraft:leaves",
+		"#minecraft:bamboo_plantable_on",
+		"minecraft:cobblestone",
+		"minecraft:stone",
+		"#minecraft:planks",
+		"#minecraft:logs",
+		"minecraft:blue_terracotta",
+		"minecraft:red_terracotta",
+		"minecraft:water"
+		
+    ]
+}

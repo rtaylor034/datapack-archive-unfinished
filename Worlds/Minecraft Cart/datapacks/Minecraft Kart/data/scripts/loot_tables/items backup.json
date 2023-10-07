@@ -1,0 +1,256 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:1,display:{Name:\"{\\\"text\\\":\\\"Boost\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:2,display:{Name:\"{\\\"text\\\":\\\"R.O.C.K.E.T\\\",\\\"color\\\":\\\"dark_red\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:3,display:{Name:\"{\\\"text\\\":\\\"TNT\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bricks",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:4,display:{Name:\"{\\\"text\\\":\\\"Wall\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:5,display:{Name:\"{\\\"text\\\":\\\"Arrow\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:6,display:{Name:\"{\\\"text\\\":\\\"Homing Arrow\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_cream",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:7,display:{Name:\"{\\\"text\\\":\\\"Fireball\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:compass",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:8,display:{Name:\"{\\\"text\\\":\\\"Seeker\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:anvil",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:9,display:{Name:\"{\\\"text\\\":\\\"Anvil\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:10,display:{Name:\"{\\\"text\\\":\\\"Slime Trail\\\",\\\"color\\\":\\\"dark_green\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:1,display:{Name:\"{\\\"text\\\":\\\"Boost x3\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blaze_rod",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:11,display:{Name:\"{\\\"text\\\":\\\"Smite\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:12,display:{Name:\"{\\\"text\\\":\\\"Meteor\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:13,display:{Name:\"{\\\"text\\\":\\\"Banana\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:13,display:{Name:\"{\\\"text\\\":\\\"Banana x3\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lava_bucket",
+                    "functions": [
+                        {
+"function": "set_nbt",
+                            "tag": "{item:1,itemid:14,display:{Name:\"{\\\"text\\\":\\\"Jet Thrust\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:light_gray_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:15,display:{Name:\"{\\\"text\\\":\\\"Smoke Screen\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:5,display:{Name:\"{\\\"text\\\":\\\"Arrow x3\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:6,display:{Name:\"{\\\"text\\\":\\\"Homing Arrow x3\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bedrock",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:16,display:{Name:\"{\\\"text\\\":\\\"Shockwave\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:nether_star",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:1,itemid:17,display:{Name:\"{\\\"text\\\":\\\"Star Power\\\",\\\"color\\\":\\\"light_purple\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/mainhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/offhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/head"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/chest"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/legs"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "gconstruct:unstack/feet"
+    }
+  ]
+}

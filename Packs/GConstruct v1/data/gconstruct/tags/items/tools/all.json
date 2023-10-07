@@ -1,0 +1,13 @@
+{
+"replace": false,
+    "values": [
+        "#gconstruct:tools/swords",
+		"#gconstruct:tools/hoes",
+		"#gconstruct:tools/pickaxes",
+		"#gconstruct:tools/axes",
+		"#gconstruct:tools/shovels",
+		"#gconstruct:tools/misc",
+		"#gconstruct:tools/ranged"
+		
+    ]
+}

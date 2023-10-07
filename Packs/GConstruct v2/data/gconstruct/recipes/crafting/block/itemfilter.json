@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " c ",
+        "cHc",
+        " c "
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

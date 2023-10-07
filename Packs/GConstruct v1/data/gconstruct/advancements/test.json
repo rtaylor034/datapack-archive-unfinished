@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "gconstruct:test",
+    "experience": 34324
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:stone",
+        "item": {
+          "nbt": "{e:1}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+
+ ==== INPUT OUTPUT FUNCTIONS (Methods) ====
+ - a method is defined by a folder that has a "run.mcfunction" file inside of it. the method is named by the folder containing the "run.mcfunction" file.
+ - any other mcfunction files inside of a method folder are helper functions, and are not to be called by any function outside of the method folder.
+
+ == Method Comment Notation ==
+ - every methods "run" function includes comment lines specifying the:
+ {
+ PARAMS <Parameters [data]>
+ OUT <Output(s) [data]>
+ USE <Description of use>
+ CONTEXT <Where this function is meant to be run from>
+ NOTE <Other important information about the method>
+ }
+ - some methods may have "ALT" or "OPT" PARAMS.
+ - ALT means that you may specify the regular PARAMS |OR| the ALT PARAMS. *not both*
+ - OPT means that the PARAMS are optional, and are denoted by lowercase letters instead of uppercase.
+
+
+ = Data Notation =
+ Scoreboards - (<target> -> <objective>) | Commons - "slime_param", "slime_out", "slime_var"
+ Storage NBT - [<path> -> <storage>] | Commons - "slime:param", "slime:out", "slime:var" | Path - <MethodName>.<variable>
+ Entity NBT - {<path> -> <entity>}
+
+
+==== NAMING / FORMAT CONVENTIONS ====
+
+= Tags =
+- all tags should have their datapack id name at the beginning of the tag name, followed by the general name of the tag.
+- spaces in tags are denoted by a "-".
+- tags that only exist within 1 tick, should start with a "_".
+~ EX: marker entity that marks a block is spawned with the tag "mypack-coolblock". when the block is broken, the marker is given the tag "_mypack-destroyed" for a subtick before being killed.
+
+= Data Storage =
+- Datapacks should have up to 5 data storage namespaces, as follows:
+"<namespace>:param" - EXCLUSIVELY for specifying parameters for in/out methods. (subtick)
+"<namespace>:var" - EXCLUSIVELY for storing subtick variables that require NBT. (subtick)
+"<namespace>:out" - EXCLUSIVELY for storing the output of in/out methods. (subtick [unmanaged])
+"<namespace>:storage" - For all lasting data that a datapack stores. (lasting)
+
+- Datapacks MUST have the following data entries under "<namespace>:packdata" when loaded:
+"name" - The display name of the datapack (ex: "SlimeCore").
+"namespace" - The namespace of the datapack (ex: "slime").
+
+"activeDependents" - This stores an array of datapacks that depend on this datapack (their packdata). This should not be specified when loaded, only updated by a datapacks "<namespace>:global/dependupon"
+
+(TODO : UNFINISHED)

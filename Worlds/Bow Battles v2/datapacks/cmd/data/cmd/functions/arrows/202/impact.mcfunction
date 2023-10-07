@@ -1,0 +1,9 @@
+
+#IMPACT
+
+
+kill @s
+
+
+
+

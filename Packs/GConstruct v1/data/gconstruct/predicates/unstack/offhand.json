@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "tag": "gconstruct:unstackable",
+        "count": {
+          "min": 2,
+          "max": 64
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+"replace": false,
+    "values": [
+        "minecraft:fishing_rod",
+		"minecraft:carrot_on_a_stick",
+		"minecraft:warped_fungus_on_a_stick",
+		"minecraft:flint_and_steel",
+		"minecraft:trident",
+		"minecraft:shield",
+		"minecraft:shears"
+    ]
+}

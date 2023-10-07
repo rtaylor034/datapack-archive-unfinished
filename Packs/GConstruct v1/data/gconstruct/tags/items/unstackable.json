@@ -1,0 +1,34 @@
+{
+"replace": false,
+    "values": [
+        "minecraft:enchanted_book",
+		"#minecraft:beds",
+		"minecraft:minecart",
+		"minecraft:saddle",
+		"#minecraft:boats",
+		"minecraft:saddle",
+		"minecraft:water_bucket",
+		"minecraft:lava_bucket",
+		"minecraft:cod_bucket",
+		"minecraft:milk_bucket",
+		"minecraft:pufferfish_bucket",
+		"minecraft:salmon_bucket",
+		"minecraft:tropical_fish_bucket",
+		"minecraft:potion",
+		"minecraft:lingering_potion",
+		"minecraft:splash_potion",
+		"minecraft:totem_of_undying",
+		"#gconstruct:tools/all",
+		"#gconstruct:armor/all",
+		"#minecraft:music_discs",
+		"minecraft:writable_book",
+		"minecraft:cake",
+		"minecraft:rabbit_stew",
+		"minecraft:mushroom_stew",
+		"minecraft:beetroot_soup",
+		"#gconstruct:minecarts",
+		"#gconstruct:horse_armor",
+		"#gconstruct:shulkers"
+	
+    ]
+}

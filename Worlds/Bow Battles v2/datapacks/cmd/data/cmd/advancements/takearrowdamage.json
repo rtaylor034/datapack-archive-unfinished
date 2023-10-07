@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "cmd:advancement/takearrowdamage"
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "direct_entity": {
+            "type": "minecraft:arrow"
+          },
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    }
+  }
+}

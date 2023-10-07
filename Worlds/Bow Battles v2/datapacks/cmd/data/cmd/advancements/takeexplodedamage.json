@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "cmd:advancement/takeexplodedamage"
+  },
+  "criteria": {
+    "explode": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_explosion": true
+          }
+        }
+      }
+    }
+  }
+}
