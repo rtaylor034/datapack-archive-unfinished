@@ -25,7 +25,7 @@ The following blocks:
 - Teleporter
   - Has a single slot for an item stack.
   - When a player crouches on a teleporter with an item stack in it, they are teleported to the nearest teleporter that contained the exact same item stack.
-- Sies Device
+- SIES Device *(Single Item Ender Storage)*
   - Can store an infinite amount of a single item.
 - Item Filter
   - Has a single slot for an item.
@@ -73,10 +73,10 @@ Added so users could easily distinguish between vanilla items and pack-added ite
 The Item Filter from v1, re-implemented with SlimeCore.
 
 #### Reflection
-There is not much to say about the content of the pack itself, but I used as an 'example' for a pack that would depend on SlimeCore, so it indirectly aided in the development of SlimeCore.
+There is not much to say about the content of the pack itself, but it aided in the development in SlimeCore v1 and served to be an example for a pack that would depend upon it.
 
 One specific idea that I kept after development was the standardization of pack-added item NBT data. <br>
-In future 'standardard' libraries I write, I will probabaly include a generalized implementation of this.
+I actually implemented a generalized version of this idea into SlimeCore v1 after the fact, and probably will write implementations for it in future 'standard' libraries.
 
 I abandoned this project over time due to updates to the game aswell as shifting focus to other projects.
 
