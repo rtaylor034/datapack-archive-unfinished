@@ -70,7 +70,7 @@ An internal API for generating standardized NBT data for custom items and blocks
 This would change the color of custom items as well as add a 'GConstruct' signature to the item's lore/description<br>
 Added so users could easily distinguish between vanilla items and pack-added items.
 
-The Item Filter from [GConstruct v1]((https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-implemented with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
+The Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-implemented with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 #### Reflection
 There is not much to say about the content of the pack itself, but it aided in the development in SlimeCore v1 and served to be an example for a pack that would depend upon it.
