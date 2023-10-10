@@ -42,15 +42,15 @@ A resource pack to retexture custom blocks/items and GUI items.<br>
 *Not included in repository*
 
 #### Reflection
-This was a very ambitious project, I had many more things planned such as the mentioned Augment Table and Block Placer (and Block Breaker respectively), as well as things like wireless redstone, an overhaul to mining, and more options for cosmetic armor/tool customization.<br>
+I had many more things planned such as the mentioned Augment Table and Block Placer (and Block Breaker respectively), as well as things like wireless redstone, an overhaul to mining, and more options for cosmetic armor/tool customization.<br>
 
 The Augment Table was going to introduce "augments" which were like enchantments, taking an undecided non-xp resource as cost, and providing extra utility to gear.<br>
 Auto-smelt pickaxe, x-ray helmet, slow-fall armor, would be the kinds of things to be augments.
 
-At the time I was very proud of my implementations of the Teleporter and Sies Device; <br>
-implementing them was a dive into 'advanced' NBT storage data manipulation that I had never used or seen before, and it genuinely was a big shift in the way I thought about implementing other things onward.
+At the time I was very proud of my implementations of the Teleporter and SIES Device; <br>
+implementing them was a dive into 'advanced' NBT storage data manipulation that I had never used or seen before, and it genuinely was a big shift in the way I thought about implementing things in mcfunction.
 
-The Item Filter implementation was also a big personal accomplishment, albiet not as big as the Sies or Teleporter.<br>
+The Item Filter implementation was also a big personal accomplishment, albiet not as big as the SIES or Teleporter.<br>
 I utilized what I learned from implementing the Teleporter to create a recursive function that searched through the items of a container and started to realize the capabilities of recursive fuctions in the context of mcfunction.
 
 I abandoned this project over time due to updates to the game aswell as shifting focus to other projects.
@@ -70,7 +70,7 @@ An internal API for generating standardized NBT data for custom items and blocks
 This would change the color of custom items as well as add a 'GConstruct' signature to the item's lore/description<br>
 Added so users could easily distinguish between vanilla items and pack-added items.
 
-The Item Filter from v1, re-implemented with SlimeCore.
+The Item Filter from [GConstruct v1]((https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-implemented with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 #### Reflection
 There is not much to say about the content of the pack itself, but it aided in the development in SlimeCore v1 and served to be an example for a pack that would depend upon it.
