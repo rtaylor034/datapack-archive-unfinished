@@ -51,12 +51,14 @@ At the time I was very proud of my implementations of the Teleporter and SIES De
 implementing them was a dive into 'advanced' NBT storage data manipulation that I had never used or seen before, and it genuinely was a big shift in the way I thought about implementing things in mcfunction.
 
 The Item Filter implementation was also a big personal accomplishment, albiet not as big as the SIES or Teleporter.<br>
-I utilized what I learned from implementing the Teleporter to create a recursive function that searched through the items of a container and started to realize the capabilities of recursive fuctions in the context of mcfunction.
+I utilized what I learned from implementing the Teleporter to create a recursive function that searched through the items of a container and started to realize the capabilities of recursive fuctions in the context of mcfunction.<br>
+*I wrote the array functions for [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) after learning from the Item Filter implementation.*
 
 I abandoned this project over time due to updates to the game aswell as shifting focus to other projects.
 
 ## GConstruct v2
 **namespace: 'gconstruct'**<br>
+**dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))
 **years in progress: 2021-2022**
 #### Vision
 A rewriting of GConstruct v1 that followed my personal standards and had a fresh implementation.
@@ -67,13 +69,13 @@ This one was different from v1 becuase it directly used the vanilla crafting tab
 An internal API for adding custom blocks with and without GUI.
 
 An internal API for generating standardized NBT data for custom items and blocks added by this pack.<br>
-This would change the color of custom items as well as add a 'GConstruct' signature to the item's lore/description<br>
+This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description<br>
 Added so users could easily distinguish between vanilla items and pack-added items.
 
-The Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-implemented with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
+Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 #### Reflection
-There is not much to say about the content of the pack itself, but it aided in the development in SlimeCore v1 and served to be an example for a pack that would depend upon it.
+There is not much to say about the content of the pack itself, but it aided in the development in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) and served to be an example for a pack that would depend upon it.
 
 One specific idea that I kept after development was the standardization of pack-added item NBT data. <br>
 I actually implemented a generalized version of this idea into SlimeCore v1 after the fact, and probably will write implementations for it in future 'standard' libraries.
