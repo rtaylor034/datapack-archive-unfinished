@@ -70,7 +70,7 @@ An internal API for adding custom blocks with and without GUI.
 
 An internal API for generating standardized NBT data for custom items and blocks added by this pack.<br>
 This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description<br>
-Added so users could easily distinguish between vanilla items and pack-added items.
+Added so `User`s could easily distinguish between vanilla items and pack-added items.
 
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
@@ -146,23 +146,23 @@ It the future, I honestly may come back to work on this pack under its own repos
 **namespace: 'slimec'**<br>
 **years in progress: 2023**
 ### Vision
-A native user-and-developer friendly dependency manager aswell as a framework/specification for all packs.<br>
+A native, easy to use dependency manager aswell as a framework/specification for all packs.<br>
 Supports versioning aswell as optional dependencies (referred to as 'supports').
 
 *Pretty much completely unrelated to [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), which is just a library.*
 
 ### Current State Provides
 The process is as follows:
-1. After completing their pack, developer runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about their pack, including a download/repo link.
-    - Packs specified as dependencies/supports must be present in the developer's world and installed using SlimeCore (via this same process).
-2. Dev copy and pastes the generated commands before the first lines in their pack's LOAD entrypoint function.
-    - Generated commands have return values indicating whether the pack is compatible with the user's world upon runtime.
-    - It is the developers responsibility to handle these values.
-3. The pack is uploaded by the dev (via their own means) and downloaded by the user.
-4. User puts the pack in their world's datapack folder and loads it; One of 3 things can happen:
-    - User has all dependencies of the pack: User recieves an 'all good' status message.
-    - User does not have all dependencies of the pack: User recieves download links to the missing dependencies.
-    - User has one or more packs that are incompatible with the pack: User recieves a message informing them if the pack conflicts.
+1. After completing `Pack`, `Developer` runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about `Pack`, including a download/repo link.
+    - Packs specified as dependencies/supports must be present in the `Developer`'s world and installed using SlimeCore (via this same process).
+2. `Developer` copy and pastes the generated commands before the first lines in `Pack`'s LOAD entrypoint function.
+    - Generated commands have return values indicating whether `Pack` is compatible with `User`'s world upon runtime.
+    - It is `Developer`'s responsibility to handle these values.
+3. `Pack` is uploaded by `Developer` (via their own means) and downloaded by `User`.
+4. `User` puts `Pack` in their world's datapack folder and loads it; One of 3 things can happen:
+    - `User` has all dependencies of `Pack`: `User` recieves an 'all good' status message.
+    - `User` does not have all dependencies of `Pack`: `User` recieves download links to the missing dependencies.
+    - `User` has one or more packs that are incompatible with `Pack`: `User` recieves a message informing them of the pack conflicts.
 
 More information on specification is provided in (unfinished) [readme.txt](Packs/SlimeCore%20v2/data/slimec/functions/readme.txt) aswell as [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) file.
 
