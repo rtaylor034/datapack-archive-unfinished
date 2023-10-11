@@ -152,12 +152,9 @@ Supports versioning aswell as optional dependencies (referred to as 'supports').
 *Pretty much completely unrelated to [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), which is just a library.*
 
 ### Current State Provides
-
-SlimeCore (as stated in the vision) is meant to be a dependency manager, and provides pack developers a framework to ensure that users have all dependencies installed, aswell as clean installation/uninstallation standards.
-
 The flow of the SlimeCore framework is as follows:
 1. After completing their pack, the developer runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about their pack, including a download/repo link.
-  - Packs specified as dependencies/supports must be present in the developer's world and installed using SlimeCore (via this same process).
+    - Packs specified as dependencies/supports must be present in the developer's world and installed using SlimeCore (via this same process).
 2. They copy and paste the generated commands as the very first lines in their pack's LOAD entrypoint function.
   - These generated commands have return values indicating whether the pack is compatible with the user's world when loaded.
 3. The developer implements a stopping/safety mechanism for their pack incase their pack should NOT run (missing dependency, etc.), utilizing the generated commands' return values.
