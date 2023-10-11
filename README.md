@@ -156,13 +156,13 @@ The flow of the SlimeCore framework is as follows:
 1. After completing their pack, the developer runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about their pack, including a download/repo link.
     - Packs specified as dependencies/supports must be present in the developer's world and installed using SlimeCore (via this same process).
 2. They copy and paste the generated commands as the very first lines in their pack's LOAD entrypoint function.
-  - These generated commands have return values indicating whether the pack is compatible with the user's world when loaded.
+    - These generated commands have return values indicating whether the pack is compatible with the user's world when loaded.
 3. The developer implements a stopping/safety mechanism for their pack incase their pack should NOT run (missing dependency, etc.), utilizing the generated commands' return values.
 3. The pack is uploaded by the dev (via their own means) and downloaded by the user.
 4. The user puts the pack in their world's datapack folder and loads it; one of 3 things can happen:
-  - The user has all dependencies of the pack: user recieves an 'all good' status message.
-  - The user does not have all dependencies of the pack: user recieves download links to the missing dependencies.
-  - Ther user has one or more packs that are incompatible with the pack: user recieves a message informing them if the pack conflicts.
+    - The user has all dependencies of the pack: user recieves an 'all good' status message.
+    - The user does not have all dependencies of the pack: user recieves download links to the missing dependencies.
+    - Ther user has one or more packs that are incompatible with the pack: user recieves a message informing them if the pack conflicts.
 
 More information on specification is provided in the (unfinished) [readme.txt](Packs/SlimeCore%20v2/data/slimec/functions/readme.txt) aswell as the [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) file.
 
