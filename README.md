@@ -156,13 +156,12 @@ The process is as follows:
 1. After completing `Pack`, `Developer` runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about `Pack`, including a download/repo link.
     - Packs specified as dependencies/supports must be present in the `Developer`'s world and installed using SlimeCore (via this same process).
 2. `Developer` copy and pastes the generated commands before the first lines in `Pack`'s LOAD entrypoint function.
-    - Generated commands have return values indicating whether `Pack` is compatible with `User`'s world upon runtime.
-    - It is `Developer`'s responsibility to handle these values.
+    - Generated commands have return values indicating whether `Pack` is compatible with `User`'s world upon runtime. It is `Developer`'s responsibility to handle these values.
 3. `Pack` is uploaded by `Developer` (via their own means) and downloaded by `User`.
 4. `User` puts `Pack` in their world's datapack folder and loads it; One of 3 things can happen:
-    - `User` has all dependencies of `Pack`: `User` recieves an 'all good' status message.
-    - `User` does not have all dependencies of `Pack`: `User` recieves download links to the missing dependencies.
-    - `User` has one or more packs that are incompatible with `Pack`: `User` recieves a message informing them of the pack conflicts.
+    - `User`'s world has all dependencies of `Pack`: `User` recieves an 'all good' status message.
+    - `User`'s world does not have all dependencies of `Pack`: `User` recieves download links to the missing dependencies.
+    - `User`'s world has one or more packs that are incompatible with `Pack`: `User` recieves a message informing them of the pack conflicts.
 
 More information on specification is provided in (unfinished) [readme.txt](Packs/SlimeCore%20v2/data/slimec/functions/readme.txt) aswell as [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) file.
 
