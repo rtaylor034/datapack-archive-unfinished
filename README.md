@@ -100,7 +100,7 @@ A custom death/hurt effect for all changed mobs.
 The following changes to mobs:<br>
 - Zombie
   - Health: 30-70
-  - Movement Speed: .11-.21
+  - Movement Speed: 0.11-0.21
   - Knockback Resistance: 20..30%
   - Spawn Reinforcement on hit chance: 30%
   - Follow Range: 50-70
@@ -109,26 +109,26 @@ The following changes to mobs:<br>
   - Can always pick up items
 - Skeleton
   - Health: 10-16
-  - Movement Speed: .25-.28
+  - Movement Speed: 0.25-0.28
   - Follow Range: 24-34
   - Will hop backward on every shot, force depending on distance to player
 - Creeper
   - Health: 5
-  - Movement Speed: .25-.3
+  - Movement Speed: 0.25-0.3
   - Follow Range: 25
   - Silent footsteps
-  - Explodes 3/4s after priming
+  - Explodes 0.75s after priming
   - Immediatly primes if hit and not killed
 - Cave Spider
   - Health: 4-6
-  - Movement Speed: .41-.46
+  - Movement Speed: 0.41-0.46
   - Knockback Resistance: 10-30%
   - Follow Range: 10
   - Attack Damage: 3-4
   - Spawns in twos
 - Spider
   - Health: 25-35
-  - Movement Speed: .18-.21
+  - Movement Speed: 0.18-0.21
   - Knockback Resistance: 50-60%
   - Follow Range: 16
   - Attack Damage: 4
@@ -152,22 +152,27 @@ Supports versioning aswell as optional dependencies (referred to as 'supports').
 *Pretty much completely unrelated to [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), which is just a library.*
 
 ### Current State Provides
-The flow of the SlimeCore framework is as follows:
-1. After completing their pack, the developer runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about their pack, including a download/repo link.
+The process is as follows:
+1. After completing their pack, developer runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about their pack, including a download/repo link.
     - Packs specified as dependencies/supports must be present in the developer's world and installed using SlimeCore (via this same process).
-2. They copy and paste the generated commands as the very first lines in their pack's LOAD entrypoint function.
-    - These generated commands have return values indicating whether the pack is compatible with the user's world when loaded.
-3. The developer implements a stopping/safety mechanism for their pack incase their pack should NOT run (missing dependency, etc.), utilizing the generated commands' return values.
+2. Dev copy and pastes the generated commands before the first lines in their pack's LOAD entrypoint function.
+    - Generated commands have return values indicating whether the pack is compatible with the user's world upon runtime.
+    - It is the developers responsibility to handle these values.
 3. The pack is uploaded by the dev (via their own means) and downloaded by the user.
-4. The user puts the pack in their world's datapack folder and loads it; one of 3 things can happen:
-    - The user has all dependencies of the pack: user recieves an 'all good' status message.
-    - The user does not have all dependencies of the pack: user recieves download links to the missing dependencies.
-    - Ther user has one or more packs that are incompatible with the pack: user recieves a message informing them if the pack conflicts.
+4. User puts the pack in their world's datapack folder and loads it; One of 3 things can happen:
+    - User has all dependencies of the pack: User recieves an 'all good' status message.
+    - User does not have all dependencies of the pack: User recieves download links to the missing dependencies.
+    - User has one or more packs that are incompatible with the pack: User recieves a message informing them if the pack conflicts.
 
-More information on specification is provided in the (unfinished) [readme.txt](Packs/SlimeCore%20v2/data/slimec/functions/readme.txt) aswell as the [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) file.
+More information on specification is provided in (unfinished) [readme.txt](Packs/SlimeCore%20v2/data/slimec/functions/readme.txt) aswell as [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) file.
 
-Also provides a [function](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/showpacks.mcfunction) to show info about all installed packs and their status.
+Provides a [function](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/showpacks.mcfunction) to show info about installed packs and their status.
 ### Reflection
-As awesome as this idea was, I decided its probably just better if I want a dependency manager to just write it as an external program, that way it could also be a fully fledged package manager with control over much more.
 
-I also believe I got stumped on the issue of pack execution order; There is no real supported way to control this without asking developers to jump through more hoops than I would like, and without controlling it there could be potiential pack-loading issuess.
+As awesome as this idea was, I started to realize that it would probably be better to write a packagae manager as an external program.
+
+I believe the nail in the coffin was when I got stumped on the issue of pack execution order.<br>
+There was no way to control execution order without asking developers to jump through more hoops than I would like.<br>
+Without controlling execution order there would be fundamental pack installation issues.
+
+
