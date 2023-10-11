@@ -58,7 +58,7 @@ I abandoned this project over time due to updates to the game aswell as shifting
 
 ## GConstruct v2
 **namespace: 'gconstruct'**<br>
-**dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))
+**dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 **years in progress: 2021-2022**
 ### Vision
 A rewriting of [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) that followed my personal standards and had a fresh implementation.
@@ -84,7 +84,7 @@ I abandoned this project becuase at the time I just didn't have the time to focu
 
 ## Hard Mobs v2
 **namespace: 'hardg'**<br>
-**dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))
+**dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 **years in progress: 2022**
 ### Vision
 A reimagining of [HardMobs v1](https://github.com/rtaylor034/datapack-archive-finished#hard-mobs-v1) with more interesting/fairer mechanics, variable stats (opposed to fixed stats in v1), and much more efficient implementation.
@@ -143,7 +143,7 @@ I think I got decision paralasis on implementing spiders having a projectile web
 It the future, I honestly may come back to work on this pack under its own repository, rewriting portions of it to fit current standards/library(s). 
 
 ## SlimeCore v2
-**namespace: 'slimec'**
+**namespace: 'slimec'**<br>
 **years in progress: 2023**
 ### Vision
 A native user-and-developer friendly dependency manager aswell as a framework/specification for all packs.<br>
