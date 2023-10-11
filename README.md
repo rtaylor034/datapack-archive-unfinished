@@ -70,7 +70,7 @@ An internal API for adding custom blocks with and without GUI.
 
 An internal API for generating standardized NBT data for custom items and blocks added by this pack.<br>
 This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description<br>
-Added so `User`s could easily distinguish between vanilla items and pack-added items.
+Added so users could easily distinguish between vanilla items and pack-added items.
 
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
@@ -105,7 +105,7 @@ The following changes to mobs:<br>
   - Spawn Reinforcement on hit chance: 30%
   - Follow Range: 50-70
   - Attack Damage: 2-6
-  - Will rage upon reaching less than 15 health, gaining permanent speed, resistance, and strength
+  - Upon dropping below 15 health, gains permanent speed, resistance, and strength
   - Can always pick up items
 - Skeleton
   - Health: 10-16
