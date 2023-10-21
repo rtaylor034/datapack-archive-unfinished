@@ -16,7 +16,7 @@ Packs
 **dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 **years in progress: 2020-2021**
 #### Vision
-A general overhaul to some of the aspects of survival minecraft that I found annoying or otherwise needing improvement with a focus on automation.
+A general overhaul to some of the aspects of survival minecraft that I felt could use improvement, with a focus on automation.
 #### Current State
 The following blocks:
 - Constuctor
@@ -39,10 +39,10 @@ A dev-system for easily add more constructor recipes.
 The non-functional dummy block implementations for an Augment Table and a Block Placer.
 
 A resource pack to retexture custom blocks/items and GUI items.<br>
-*Not included in repository*
+*(Not included in repository)*
 
 #### Reflection
-I had many more things planned such as the mentioned Augment Table and Block Placer (and Block Breaker respectively), as well as things like wireless redstone, an overhaul to mining, and more options for cosmetic armor/tool customization.<br>
+I had many more things planned such as the aformentioned Augment Table and Block Placer (and Block Breaker respectively), as well as things like wireless redstone, an overhaul to mining, and more options for cosmetic armor/tool customization.<br>
 
 The Augment Table was going to introduce "augments" which were like enchantments, taking an undecided non-xp resource as cost, and providing extra utility to gear.<br>
 Auto-smelt pickaxe, x-ray helmet, slow-fall armor, would be the kinds of things to be augments.
@@ -61,16 +61,16 @@ I abandoned this project over time due to updates to the game aswell as shifting
 **dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 **years in progress: 2021-2022**
 ### Vision
-A rewriting of [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) that followed my personal standards and had a fresh implementation.
+A rewriting of [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) that followed my personal standards and fresh implementations.
 ### Current State Provides
 A dev-system for easily adding crafting recipes.<br>
-This one was different from v1 becuase it directly used the vanilla crafting table and not a custom crafter block.
+(This one was different from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) becuase it directly used the vanilla crafting table and not a custom crafter block.)
 
 An internal API for adding custom blocks with and without GUI.
 
 An internal API for generating standardized NBT data for custom items and blocks added by this pack.<br>
-This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description<br>
-Added so users could easily distinguish between vanilla items and pack-added items.
+This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description.<br>
+(Added so users could easily distinguish between vanilla items and pack-added items.)
 
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
