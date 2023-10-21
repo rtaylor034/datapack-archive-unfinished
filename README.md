@@ -179,7 +179,7 @@ Without controlling execution order there would be fundamental pack recognition 
 **namespace: xphealth**<br>
 **dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 ### Vision
-A for fun pack that the player's XP bar into their health bar, slowly draining over time.
+A for-fun pack that the player's XP bar into their health bar, slowly draining over time.
 
 The goal was to create fast-paced gameplay that forced the player to always be moving and thinking of their next move.
 
@@ -188,7 +188,7 @@ Players start with 180 'health', indicated by the level on their XP bar.
 
 This value decreases by 1 every second, meaning your health was essentially how many more seconds you had to live.
 
-Picking up XP is the only way to increase this value.
+Picking up XP is the only way to increase this value.<br>
 *Default conversion rate is 7 health per 1 XP*
 
 Taking damage reduces your health by 5x the normal amount.
@@ -201,7 +201,7 @@ When overloaded, the player gains speed 2 and their health decays twice as fast 
 
 Any health exceeding 300 is converted into lapis lazuli.<br>
 *Default conversion rate is 50 health per 1 lapis lazuli.*<br>
-*Mined lapis lazuli ore will give "crushed lapis lazuli", which is only usable as dye*
+Mined lapis lazuli ore will give "crushed lapis lazuli", which is only usable as dye.
 
 Upon reaching 0 health, the player is put into a "dying" state for 5 seconds.<br>
 While dying:
