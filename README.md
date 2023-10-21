@@ -4,7 +4,7 @@ This repository is an archive for datapacks that are unfinished and are no longe
 
 Pack discontinuation is usually due Minecraft update or knowledge that I gain rendering the methods used in the pack (or the pack itself) obsolete/broken.
 
-The descriptions in this archive will be in a subjective format compared to [the finished datapack archive](https://github.com/rtaylor034/datapack-archive-finished)
+The descriptions in this archive will be informal compared to [the finished datapack archive](https://github.com/rtaylor034/datapack-archive-finished).
 
 all further statements can be assumed to have "IIRC" before it.
 
@@ -75,9 +75,7 @@ This would change the color of custom items as well as add a GConstruct" signatu
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 ### Reflection
-There is not much to say about the content of the pack itself that was not said in [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1).
-
-Development of this pack aided in the development in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), serving as an example for a pack that would depend on it.
+Development of this pack aided in the development of [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), serving as an example for a pack that would depend on it.
 
 One specific idea that I kept after development was the standardization of pack-added item NBT data. <br>
 I added a general implementation of this idea into [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) after the fact, and probably will include it in future 'standard' libraries.
@@ -178,17 +176,18 @@ Without controlling execution order there would be fundamental pack recognition 
 ## XP Health
 **namespace: xphealth**<br>
 **dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
+**years in progress: 2022**
 ### Vision
 A for-fun pack that the player's XP bar into their health bar, slowly draining over time.
 
-The goal was to create fast-paced gameplay that forced the player to always be moving and thinking of their next move.
+The goal was to create fast-paced gameplay that forced the player to always be thinking of their next move.
 
 ### Current State Provides
 Players start with 180 'health', indicated by the level on their XP bar.
 
 This value decreases by 1 every second, meaning your health was essentially how many more seconds you had to live.
 
-Picking up XP is the only way to increase this value.<br>
+Picking up XP is the only way to increase your health.<br>
 *Default conversion rate is 7 health per 1 XP*
 
 Taking damage reduces your health by 5x the normal amount.
@@ -219,7 +218,7 @@ This pack was made just for fun, I thought it would make for some interesting ga
 
 The only reason I consider this pack "unfinished" is becuase there are a few unnacceptable bugs, mainly having to do with the dying state.<br>
 
-I don't really care to fix these bugs or make this pack more stable becuase it was just a quick experiment with game design and less focused around programming.
+I don't really care to fix these bugs becuase this pack was just a quick experiment with game design.
 
 Worlds
 =====
