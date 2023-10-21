@@ -172,7 +172,7 @@ Provides a [function](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/showp
 
 As awesome as this idea was, I started to realize that it would probably be better to write a package manager as an external program.
 
-I believe the nail in the coffin was when I got stumped on the issue of pack execution order. I could not find a way to control execution order without complicating the process for developers.<br>
+I believe the nail in the coffin was when I got stumped on the issue of pack execution order. I could not find a way to control execution order without complicating the process for developers more than I would like.<br>
 Without controlling execution order there would be fundamental pack recognition issues during dependency checking.
 
 ## XP Health
