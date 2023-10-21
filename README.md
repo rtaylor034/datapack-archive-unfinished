@@ -64,7 +64,7 @@ I abandoned this project over time due to updates to the game aswell as shifting
 A rewriting of [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) that followed my personal standards and fresh implementations.
 ### Current State Provides
 A dev-system for easily adding crafting recipes.<br>
-*This one was different from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) becuase it directly used the vanilla crafting table and not a custom crafter block.*
+*This was different from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) becuase it used the vanilla crafting table directly and not a custom crafter block.*
 
 An internal API for adding custom blocks with and without GUI.
 
@@ -75,10 +75,12 @@ This would change the color of custom items as well as add a GConstruct" signatu
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 ### Reflection
-There is not much to say about the content of the pack itself, but it aided in the development in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) and served to be an example for a pack that would depend upon it.
+There is not much to say about the content of the pack itself that was not said in [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1).
+
+Development of this pack aided in the development in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), serving as an example for a pack that would depend on it.
 
 One specific idea that I kept after development was the standardization of pack-added item NBT data. <br>
-I actually implemented a generalized version of this idea into SlimeCore v1 after the fact, and probably will write implementations for it in future 'standard' libraries.
+I added a general implementation of this idea into [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) after the fact, and probably will include it in future 'standard' libraries.
 
 I abandoned this project becuase at the time I just didn't have the time to focus on it and it eventually fell out of relevancy.
 
@@ -87,15 +89,12 @@ I abandoned this project becuase at the time I just didn't have the time to focu
 **dependencies: 'slime' ([SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1))**<br>
 **years in progress: 2022**
 ### Vision
-A reimagining of [HardMobs v1](https://github.com/rtaylor034/datapack-archive-finished#hard-mobs-v1) with more interesting/fairer mechanics, variable stats (opposed to fixed stats in v1), and much more efficient implementation.
+A reimagining of [HardMobs v1](https://github.com/rtaylor034/datapack-archive-finished#hard-mobs-v1) with more interesting/fairer mechanics, variable stats (opposed to fixed stats in v1), and much more efficient implementations.
 
 ### Current State Provides
-A completely custom health and damage system for mobs that allows for complete control of all events related to mob health/damage/death.
+A completely custom health and damage system for mobs, allowing for complete control of all events related to mob health/damage/death.
 
-An API for easily specifying custom stats for mobs.<br>
-Includes support for specifying a random variation range for each stat.
-
-A custom death/hurt effect for all changed mobs.
+An API for setting custom stats for mobs, aswell as random variance for those stats.<br>
 
 The following changes to mobs:<br>
 - Zombie
@@ -134,13 +133,15 @@ The following changes to mobs:<br>
   - Attack Damage: 4
   - *No other changes were finished*
 
+A custom death/hurt effect for all changed mobs.
+
 ### Reflection
-I really liked where this pack was going, and my stat and health APIs are something im pretty proud of and allowed for control that is hardly taken advantage of in the pack's current state.
+I really liked where this pack was going, and the stat and health APIs are something im pretty proud of. The full power of the APIs are hardly taken advantage of in the pack's current state.
 
 Unfortunately this pack was abandoned before it was even close to being finished.<br>
-I think I got decision paralasis on implementing spiders having a projectile web attack which made me gradually lose interest and eventually fully abandon the project when I heard about introduction of function macros.
+I think I got decision paralasis on how to add spiders having a projectile web attack, which made me gradually lose interest and eventually fully abandon the project when I heard about introduction of function macros.
 
-It the future, I honestly may come back to work on this pack under its own repository, rewriting portions of it to fit current standards/library(s). 
+In the future, I honestly may come back to work on this pack under its own repository, rewriting portions of it to fit current standards/library(s). 
 
 ## SlimeCore v2
 **namespace: 'slimec'**<br>
@@ -149,10 +150,11 @@ It the future, I honestly may come back to work on this pack under its own repos
 A native, easy to use dependency manager aswell as a framework/specification for all packs.<br>
 Supports versioning aswell as optional dependencies (referred to as 'supports').
 
-*Pretty much completely unrelated to [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1), which is just a library.*
+*Pretty much completely unrelated to [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).*
 
 ### Current State Provides
-The process is as follows:
+The procedure of utilizing this pack is as follows:
+0. `Developer` develops `Pack`; Adds `SlimeCore v2` to their world at any point.
 1. After completing `Pack`, `Developer` runs [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) providing specified information about `Pack`, including a download/repo link.
     - Packs specified as dependencies/supports must be present in the `Developer`'s world and installed using SlimeCore (via this same process).
 2. `Developer` copy and pastes the commands generated by [getinstallcommands](Packs/SlimeCore%20v2/data/slimec/functions/api/admin/getinstallcommands.mcfunction) before the first lines in `Pack`'s LOAD entrypoint function.
