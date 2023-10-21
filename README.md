@@ -64,13 +64,13 @@ I abandoned this project over time due to updates to the game aswell as shifting
 A rewriting of [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) that followed my personal standards and fresh implementations.
 ### Current State Provides
 A dev-system for easily adding crafting recipes.<br>
-(This one was different from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) becuase it directly used the vanilla crafting table and not a custom crafter block.)
+*This one was different from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1) becuase it directly used the vanilla crafting table and not a custom crafter block.*
 
 An internal API for adding custom blocks with and without GUI.
 
 An internal API for generating standardized NBT data for custom items and blocks added by this pack.<br>
 This would change the color of custom items as well as add a GConstruct" signature to the item's lore/description.<br>
-(Added so users could easily distinguish between vanilla items and pack-added items.)
+*Was added so users could easily distinguish between vanilla items and pack-added items.*
 
 Item Filter from [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1), re-written cleaner and with [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
