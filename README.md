@@ -1,5 +1,8 @@
-Archive Description
+'Unfinished' Datapack Archive
 =====
+[![Gfunction Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frtaylor034%2Fproject-tags%2Fmain%2Ftags%2Fstatus%2Fnon-viable.json)](https://github.com/rtaylor034/project-tags)
+[![Gfunction Stance](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frtaylor034%2Fproject-tags%2Fmain%2Ftags%2Fstance%2Fheld.json)](https://github.com/rtaylor034/project-tags)
+
 This repository is an archive for datapacks that are unfinished and are no longer being worked on.
 
 Pack discontinuation is usually due Minecraft update or knowledge that I gain rendering the methods used in the pack (or the pack itself) obsolete/broken.
